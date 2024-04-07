@@ -2,7 +2,7 @@
 
 #include "common.hpp"
 
-#define EXL_MODULE_NAME "exlaunch"
+#define EXL_MODULE_NAME "exlaunchDL"
 
 #define EXL_DEBUG
 #define EXL_USE_FAKEHEAP
