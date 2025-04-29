@@ -2,7 +2,7 @@
 #include "patches.hpp"
 
 extern "C" void exl_main(void* x0, void* x1) {
-    /* Setup hooking enviroment. */
+    /* Setup hooking environment. */
     exl::hook::Initialize();
 
     runCodePatches();
@@ -10,6 +10,6 @@ extern "C" void exl_main(void* x0, void* x1) {
 }
 
 extern "C" NORETURN void exl_exception_entry() {
-    /* TODO: exception handling */
-    EXL_ABORT(0x420);
+    /* Note: this is only applicable in the context of applets/sysmodules. */
+    EXL_ABORT("Default exception handler called!");
 }

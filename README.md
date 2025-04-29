@@ -1,5 +1,8 @@
-# exlaunchDL
-A base repository using exlaunch that contains code for modifying Splatoon 2: Global Testfire. 
+# exlaunch
+A framework for injecting C/C++ code into Nintendo Switch applications/applet/sysmodules.
+
+# Note
+This project is a work in progress. If you have issues, reach out to Shadów#1337 on Discord.
 
 # Credit
 - [exlaunch](https://github.com/shadowninja108/exlaunch/)
